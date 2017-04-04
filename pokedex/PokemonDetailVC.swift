@@ -18,7 +18,7 @@ class PokemonDetailVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        pokemonNameLbl.text = pokemon.name
+        pokemonNameLbl.text = pokemon.name.capitalized
         
 
     }
